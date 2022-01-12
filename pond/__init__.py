@@ -1,5 +1,1 @@
-from .beaver import Beaver
-from .catfish import Catfish
-from .goldfish import Goldfish
-from .koi import Koi
-from .turtle import Turtle
+from .water_animals import Water_animal
