@@ -1,30 +1,46 @@
 # import the python datetime module to help us create a timestamp
 from glass_tank import Copperhead, Kingsnake, Python, Rat_snake, Rattlesnake
 from petting_area import Donkey, Goat, Lamb, Llama, Pig
-from pond import Beaver, Catfish, Duck, Goldfish, Turtle
+from pond import Beaver, Catfish, Goldfish, Koi, Turtle
+from aviary import Chicken, Duck, Eagle, Heron, Peacock
 
 
 buckey = Beaver("Buckey", "North American Beaver")
 felix = Catfish("Felix", "Flathead Catfish")
 figaro = Catfish("Figaro", "Blue Catfish")
 garfield = Catfish("Garfield", "Channel Catfish")
+drumstick = Chicken("Drumstick", "Rhode Island Red Chicken")
+kung_pao = Chicken("Kung Pao", "Rhode Island Red Chicken")
+margaret = Chicken("Margaret Hatcher", "Barred Plymouth Rock Chicken")
 medusa = Copperhead("Medusa", "Northern Copperhead")
 dominick = Donkey("Dominick", "miniature donkey")
 daffy = Duck("Daffy", "Gadwell")
 donald = Duck("Donald", "American Black Duck")
 daisy = Duck("Daisy", "Blue Winged Teal")
 david = Duck("David", "Mallard")
+pilot = Eagle("Pilot", "Bald Eagle")
+buzz = Eagle("Buzz", "Golden Eagle")
 vincent = Goat("Vincent van Goat", "pygmy goat")
 scape = Goat("Scape Goat", "fainting goat")
 butt_head = Goat("Butt-Head", "Alpine goat")
 billy = Goat("Billy the Kid", "LaMancha goat")
 finny = Goldfish("Finny", "Common Goldfish")
 splash = Goldfish("Splash", "Common Goldfish")
+heroninon = Heron("Heroninon", "Great Blue Heron")
+theron = Heron("Theron", "Grey Heron")
+sheron = Heron("Sheron", "Pacific Heron")
 jafar = Kingsnake("Jafar", "California Mountain Kingsnake")
+bashful = Koi("Bashful", "Kohaku Koi")
+flirtatious = Koi("Flirtatious","Taisho Sanshoku")
+kitten = Koi("Kitten", "Showa Sanshoku")
+reticent = Koi("Reticent", "Showa Sanshoku")
+skittish = Koi("Skittish", "Taisho Sanshoku")
+carp_e_diem = Koi("Carpe-e-Diem", "Kohaku Koi")
 snowflake = Lamb("Snowflake", "Australian White")
 alan = Lamb("Alan", "Hampshire Sheep")
 miss_fuzz = Llama("Miss Fuzz", "domestic llama")
 boots = Llama("Boots", "Wooly llama")
+Peacock
 piglet = Pig("Piglet", "Hanford Mini Swine")
 waddles = Pig("Waddles", "American Mini Pig")
 wilber = Pig("Wilber", "Mulefoot Hog")
