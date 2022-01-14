@@ -8,7 +8,7 @@ slither_inn = SnakePit("The Slither Inn")
 varmint_village = PettingZoo("Varmint Village")
 critter_cove = Wetlands("Critter Cove")
 
-roberto = Alpaca("Roberto", "Huacaya Alpaca", "hay", "morning", 453876)
+roberto = Alpaca("Roberto", "Huacaya Alpaca", "morning", "hay", 453876)
 varmint_village.add_animal(roberto)
 
 buckey = Beaver("Buckey","North American Beaver", "bark and cambium", 42905)
@@ -62,10 +62,10 @@ varmint_village.add_animal(daisy)
 david = Duck("David","Mallard", "corn and minnows", 33526)
 varmint_village.add_animal(david)
 
-pilot = Eagle("Pilot", "Bald Eagle", "sardines, salmon, and rabbit meat", 61628)
+pilot = Eagle("Pilot", "Bald Eagle", "sardines, salmon, and rabbit", 61628)
 critter_cove.add_animal(pilot)
 
-buzz = Eagle("Buzz", "Golden Eagle", "corn and minnows", 55048)
+buzz = Eagle("Buzz", "Golden Eagle", "sardines, salmon, and rabbit", 55048)
 critter_cove.add_animal(buzz)
 
 gertie = Garter_snake("Gertie", "Common Garter Snake", "12 earthworms", 70479)
@@ -74,19 +74,19 @@ varmint_village.add_animal(gertie)
 norman = Goat("Norman", "Boehr", "hay and mixed vegetables", "afternoon", 38314)
 varmint_village.add_animal(norman)
 
-vincent = Goat("Vincent van Goat", "pygmy goat", "hay and mixed vegetables", "morning", 31862)
+vincent = Goat("Vincent van Goat", "pygmy goat", "morning", "hay and mixed vegetables", 31862)
 varmint_village.add_animal(vincent)
 
-scape = Goat("Scape Goat", "fainting goat", "hay and mixed vegetables", "afternoon", 17356)
+scape = Goat("Scape Goat", "fainting goat", "midday", "hay and mixed vegetables", 17356)
 varmint_village.add_animal(scape)
 
-swooney = Goat("Swooney Goat", "fainting goat", "hay and mixed vegetables", "afternoon", 66298)
+swooney = Goat("Swooney Goat", "fainting goat", "afternoon", "hay and mixed vegetables", 66298)
 varmint_village.add_animal(swooney)
 
-butt_head = Goat("Butt-Head", "Alpine goat", "hay and mixed vegetables", "morning", 87244)
+butt_head = Goat("Butt-Head", "Alpine goat", "morning", "hay and mixed vegetables", 87244)
 varmint_village.add_animal(butt_head)
 
-billy = Goat("Billy the Kid", "LaMancha goat", "hay and mixed vegetables", "afternoon", 44491)
+billy = Goat("Billy the Kid", "LaMancha goat", "midday", "hay and mixed vegetables", 44491)
 varmint_village.add_animal(billy)
 
 finn = Goldfish("Finny", "Common Goldfish", "flaked fish food", 123789)
@@ -125,22 +125,22 @@ critter_cove.add_animal(skittish)
 carp_e_diem = Koi("Carp-e-Diem", "Kohaku Koi", "flaked food and ground worms", 59315)
 critter_cove.add_animal(carp_e_diem)
 
-snowflake = Lamb("Snowflake", "Australian White", "sheep feed mixed with legumes and forbs", "morning", 23025)
+snowflake = Lamb("Snowflake", "Australian White Lamb", "morning", "sheep feed mixed with legumes and forbs", 23025)
 varmint_village.add_animal(snowflake)
 
-alan = Lamb("Alan", "Hampshire Sheep", "sheep feed mixed with legumes and forbs", "afternoon", 98966)
+alan = Lamb("Alan", "Hampshire Sheep", "afternoon", "sheep feed mixed with legumes and forbs", 98966)
 varmint_village.add_animal(alan)
 
-al_paca = Llama("Al Paca", "Alpaca", "hay", "morning", 96290)
+al_paca = Alpaca("Al Paca", "Alpaca", "morning", "hay", 96290)
 varmint_village.add_animal(al_paca)
 
-boots = Llama("Boots", "Wooly llama", "hay", "afternoon", 86789)
+boots = Llama("Boots", "Wooly Llama", "midday", "hay", 86789)
 varmint_village.add_animal(boots)
 
-linda = Llama("Linda", "Domesticated llama", "hay", "afternoon", 5248)
+linda = Llama("Linda", "Domesticated Llama", "afternoon", "hay", 5248)
 varmint_village.add_animal(linda)
 
-miss_fuzz = Llama("Miss Fuzz", "Domestic Llama", "hay", "midday", 63099)
+miss_fuzz = Llama("Miss Fuzz", "Domesticated Llama", "morning", "hay", 63099)
 varmint_village.add_animal(miss_fuzz)
 
 rainbow = Peafowl("Rainbow", "Indian Peafowl", "corn, blueberries, and ground worms", 86404)
@@ -149,25 +149,25 @@ varmint_village.add_animal(rainbow)
 nancy = Peafowl("Nancy Beth Carlson", "Green Peafowl", "corn, blueberries, and ground worms", 61773)
 varmint_village.add_animal(nancy)
 
-piglet = Pig("Piglet", "Hanford Mini Swine", "pig feed mixed with corn and soy beans", "morning", 65065)
+piglet = Pig("Piglet", "Hanford Mini Swine", "morning", "pig feed mixed with corn and soy beans", 65065)
 varmint_village.add_animal(piglet)
 
-waddles = Pig("Waddles", "American Mini Pig", "pig feed mixed with corn and soy beans", "afternoon", 64075)
+waddles = Pig("Waddles", "American Mini Pig", "midday", "pig feed mixed with corn and soy beans", 64075)
 varmint_village.add_animal(waddles)
 
-wilber = Pig("Wilber", "Pot-bellied Pit", "pig feed mixed with corn and soy beans", "midday", 57042)
+wilber = Pig("Wilber", "Pot-bellied Pit", "afternoon", "pig feed mixed with corn and soy beans", 57042)
 varmint_village.add_animal(wilber)
 
-miss_piggy = Pig("Miss Piggy", "Ossabaw Island Hog", "pig feed mixed with corn and soy beans", "morning", 15825)
+miss_piggy = Pig("Miss Piggy", "Ossabaw Island Hog", "morning", "pig feed mixed with corn and soy beans", 15825)
 varmint_village.add_animal(miss_piggy)
 
-piggly_wiggly = Pig("Piggly Wiggly", "Meishan Breed Pig", "pig feed mixed with corn and soy beans", "afternoon", 44986)
+piggly_wiggly = Pig("Piggly Wiggly", "Meishan Breed Pig", "midday", "pig feed mixed with corn and soy beans", 44986)
 varmint_village.add_animal(piggly_wiggly)
 
-porky = Pig("Porky", "Juliana Breed Pid", "pig feed mixed with corn and soy beans", "afternoon", 51502)
+porky = Pig("Porky", "Juliana Breed Pid", "afternoon", "pig feed mixed with corn and soy beans", 51502)
 varmint_village.add_animal(porky)
 
-bacon = Pig("Bacon", "Pot-Bellied Pig", "pig feed mixed with corn and soy beans", "morning", 11921)
+bacon = Pig("Bacon", "Pot-Bellied Pig", "morning", "pig feed mixed with corn and soy beans", 11921)
 varmint_village.add_animal(bacon)
 
 slinky = Python("Slinky", "Indian Python", "1 rat", 62518)
@@ -200,9 +200,12 @@ critter_cove.add_animal(rocky)
 jaws = Characin("Jaws", "Black Pau", "fruit, seeds, carrots, and zucchini", 72564)
 critter_cove.add_animal(jaws)
 
+
+
 print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
-squirtle.feed()
+
 print(foghorn_leghorn)
+
 
 for animal in varmint_village.animals:
     print(f'You can find {animal.name} the {animal.species} in {varmint_village.attraction_name}')
@@ -212,18 +215,19 @@ for animal in slither_inn.animals:
     
 for animal in critter_cove.animals:
     print(f'You can find {animal.name} the {animal.species} in {critter_cove.attraction_name}')
+
     
 varmint_village.report()
 slither_inn.report()
 critter_cove.report()
 
-print(finn.chip_number)
 
+print(finn.chip_number)
 # This should not change the state of the object
 finn.chip_number = 555783
-
 # But printing it should work
 print(finn.chip_number)
+
 
 sammy = Anaconda("Sammy", "Green Anaconda", "tapir", 357896)
 slither_inn.add_animal(sammy)
@@ -234,3 +238,9 @@ slither_inn.add_animal(shalene)
 print(varmint_village.last_critter_added)
 print(slither_inn.last_critter_added)
 print(critter_cove.last_critter_added)
+
+
+squirtle.feed()
+boots.feed()
+buzz.feed()
+diablo.feed()
