@@ -1,9 +1,12 @@
-from animals import Alpaca, Anaconda, Beaver, Catfish, Characin, Chicken, Cichlid, Copperhead, Cobra, Duck, Donkey, Eagle, Garter_snake, Goat, Goldfish, Goose, Heron, Kingsnake, Koi, Lamb, Llama, Peafowl, Pig, Python, Rat_snake, Rattlesnake, Turtle
+from animals import Alligator, Alpaca, Anaconda, Beaver, Catfish, Characin, Chicken, Cichlid, Copperhead, Cobra, Duck, Donkey, Eagle, Garter_snake, Goat, Goldfish, Goose, Heron, Kingsnake, Koi, Lamb, Llama, Peafowl, Pig, Python, Rat_snake, Rattlesnake, Turtle
 from attractions import SnakePit, Wetlands, PettingZoo
 
-slither_inn = SnakePit("The Slither Inn", "stupendous snakes of all sizes")
+slither_inn = SnakePit("Slither Inn", "stupendous snakes of all sizes")
 varmint_village = PettingZoo("Varmint Village", "cute and fuzzy critters to cuddle")
 critter_cove = Wetlands("Critter Cove", "feathered friends and fantastic fish")
+
+snappy = Alligator("Snappy", "American Alligator", "fish", 10444)
+varmint_village.add_animal(snappy)
 
 roberto = Alpaca("Roberto", "Huacaya Alpaca", "morning", "hay", 453876)
 varmint_village.add_animal(roberto)
@@ -137,6 +140,9 @@ varmint_village.add_animal(al_paca)
 boots = Llama("Boots", "Wooly Llama", "midday", "hay", 86789)
 varmint_village.add_animal(boots)
 
+dolly = Llama("Dolly", "Miniature Llama", "morning", "hay", 10333)
+varmint_village.add_animal(dolly)
+
 linda = Llama("Linda", "Domesticated Llama", "afternoon", "hay", 5248)
 varmint_village.add_animal(linda)
 
@@ -244,6 +250,17 @@ boots.feed()
 buzz.feed()
 diablo.feed()
 
-bob.fly()
+billy.run()
 bob.run()
-bob.swim()
+
+critter_cove.add_animal(jaws)
+slither_inn.add_animal(jaws)
+varmint_village.add_animal(jaws)
+
+critter_cove.add_animal(diablo)
+slither_inn.add_animal(diablo)
+varmint_village.add_animal(diablo)
+
+critter_cove.add_animal(bacon)
+slither_inn.add_animal(bacon)
+varmint_village.add_animal(bacon)
