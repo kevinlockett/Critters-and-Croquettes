@@ -1,12 +1,9 @@
-from birds import Chicken, Duck, Eagle, Heron, Peafowl
-from fishes import Catfish, Characin, Cichlid, Goldfish, Koi
-from mammals import Alpaca, Beaver, Donkey, Goat, Lamb, Llama, Pig
-from reptiles import Anaconda, Copperhead, Cobra, Garter_snake, Kingsnake, Python, Rat_snake, Rattlesnake, Turtle
+from animals import Alpaca, Anaconda, Beaver, Catfish, Characin, Chicken, Cichlid, Copperhead, Cobra, Duck, Donkey, Eagle, Garter_snake, Goat, Goldfish, Goose, Heron, Kingsnake, Koi, Lamb, Llama, Peafowl, Pig, Python, Rat_snake, Rattlesnake, Turtle
 from attractions import SnakePit, Wetlands, PettingZoo
 
-slither_inn = SnakePit("The Slither Inn") 
-varmint_village = PettingZoo("Varmint Village")
-critter_cove = Wetlands("Critter Cove")
+slither_inn = SnakePit("The Slither Inn", "stupendous snakes of all sizes")
+varmint_village = PettingZoo("Varmint Village", "cute and fuzzy critters to cuddle")
+critter_cove = Wetlands("Critter Cove", "feathered friends and fantastic fish")
 
 roberto = Alpaca("Roberto", "Huacaya Alpaca", "morning", "hay", 453876)
 varmint_village.add_animal(roberto)
@@ -94,6 +91,9 @@ critter_cove.add_animal(finn)
 
 splash = Goldfish("Splash", "Common Goldfish", "flaked fish food", 64032)
 critter_cove.add_animal(splash)
+
+bob = Goose("Bob", "Canada Goose", "barley", 1220)
+varmint_village.add_animal(bob)
 
 heronione = Heron("Heronione", "Great Blue Heron", "sardines", 29423)
 critter_cove.add_animal(heronione)
@@ -239,8 +239,11 @@ print(varmint_village.last_critter_added)
 print(slither_inn.last_critter_added)
 print(critter_cove.last_critter_added)
 
-
 squirtle.feed()
 boots.feed()
 buzz.feed()
 diablo.feed()
+
+bob.fly()
+bob.run()
+bob.swim()
