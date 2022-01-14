@@ -11,7 +11,11 @@ class SnakePit:
         print(f'{self.attraction_name} is where you\'ll find {self.description}, like:')
         for self.animal in self.animals:
             print(f'   * {self.animal.name}')
-
+            
+    @property
+    def last_critter_added(self):
+        last_critter = self.animals[-1]
+        return f'{last_critter.name} the {last_critter.species} was the last critter added to {self.attraction_name}.'
 class Wetlands:
     def __init__(self, name):
         self.attraction_name = name
@@ -25,7 +29,11 @@ class Wetlands:
         print(f'{self.attraction_name} is where you\'ll find {self.description}, like:')
         for self.animal in self.animals:
             print(f'   * {self.animal.name}')
-
+            
+    @property
+    def last_critter_added(self):
+        last_critter = self.animals[-1]
+        return f'{last_critter.name} the {last_critter.species} was the last critter added to {self.attraction_name}.'
 class PettingZoo:
     def __init__(self, name):
         self.attraction_name = name
@@ -39,3 +47,8 @@ class PettingZoo:
         print(f'{self.attraction_name} is where you\'ll find {self.description}, like:')
         for self.animal in self.animals:
             print(f'   * {self.animal.name}')
+            
+    @property
+    def last_critter_added(self):
+        last_critter = self.animals[-1]
+        return f'{last_critter.name} the {last_critter.species} was the last critter added to {self.attraction_name}.'

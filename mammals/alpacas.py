@@ -2,9 +2,9 @@ from datetime import date
 
 class Alpaca:
     """ Class to define instances of various animals in our petting zoo
-    """
-
-    def __init__(self, name, species, food, shift):
+    """    
+    
+    def __init__(self, name, species, food, shift, chip_num):
         # Establish the properties of each animal with a default value
         self.name = name
         self.species = species
@@ -12,6 +12,15 @@ class Alpaca:
         self.date_added = date.today()
         self.food = food
         self.shift = shift
+        self.__chip_number = chip_num
+                
+    @property # The getter
+    def chip_num(self):
+        return self.__chip_number
+    
+    @chip_num.setter # The setter
+    def cchip_number(self, number):
+        pass
         
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
